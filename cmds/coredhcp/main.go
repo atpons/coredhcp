@@ -7,15 +7,15 @@ package main
 import (
 	"time"
 
-	"github.com/coredhcp/coredhcp"
-	"github.com/coredhcp/coredhcp/config"
-	"github.com/coredhcp/coredhcp/logger"
-	_ "github.com/coredhcp/coredhcp/plugins/dns"
-	_ "github.com/coredhcp/coredhcp/plugins/file"
-	_ "github.com/coredhcp/coredhcp/plugins/netmask"
-	_ "github.com/coredhcp/coredhcp/plugins/range"
-	_ "github.com/coredhcp/coredhcp/plugins/router"
-	_ "github.com/coredhcp/coredhcp/plugins/server_id"
+	"github.com/atpons/coredhcp"
+	"github.com/atpons/coredhcp/config"
+	"github.com/atpons/coredhcp/logger"
+	_ "github.com/atpons/coredhcp/plugins/dns"
+	_ "github.com/atpons/coredhcp/plugins/file"
+	_ "github.com/atpons/coredhcp/plugins/netmask"
+	_ "github.com/atpons/coredhcp/plugins/range"
+	_ "github.com/atpons/coredhcp/plugins/router"
+	_ "github.com/atpons/coredhcp/plugins/server_id"
 )
 
 func main() {

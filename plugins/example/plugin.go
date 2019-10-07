@@ -10,9 +10,9 @@ package example
 // Feedback is welcome!
 
 import (
-	"github.com/coredhcp/coredhcp/handler"
-	"github.com/coredhcp/coredhcp/logger"
-	"github.com/coredhcp/coredhcp/plugins"
+	"github.com/atpons/coredhcp/handler"
+	"github.com/atpons/coredhcp/logger"
+	"github.com/atpons/coredhcp/plugins"
 	"github.com/insomniacslk/dhcp/dhcpv4"
 	"github.com/insomniacslk/dhcp/dhcpv6"
 )
@@ -26,7 +26,7 @@ var log = logger.GetLogger("plugins/example")
 // In the main package, you need to register your plugin at import time. To do
 // this, just do a blank import of this package, e.g.
 // import (
-//     _ "github.com/coredhcp/coredhcp/plugins/example"
+//     _ "github.com/atpons/coredhcp/plugins/example"
 // )
 //
 // This guarantees that `init` will be called at import time, and your plugin

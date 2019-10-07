@@ -9,9 +9,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/coredhcp/coredhcp/handler"
-	"github.com/coredhcp/coredhcp/logger"
-	"github.com/coredhcp/coredhcp/plugins"
+	"github.com/atpons/coredhcp/handler"
+	"github.com/atpons/coredhcp/logger"
+	"github.com/atpons/coredhcp/plugins"
 	"github.com/insomniacslk/dhcp/dhcpv4"
 	"github.com/insomniacslk/dhcp/dhcpv6"
 	"github.com/insomniacslk/dhcp/iana"

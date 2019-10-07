@@ -5,8 +5,8 @@
 package plugins
 
 import (
-	"github.com/coredhcp/coredhcp/handler"
-	"github.com/coredhcp/coredhcp/logger"
+	"github.com/atpons/coredhcp/handler"
+	"github.com/atpons/coredhcp/logger"
 )
 
 var log = logger.GetLogger("plugins")
